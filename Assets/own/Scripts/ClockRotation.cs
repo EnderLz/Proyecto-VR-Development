@@ -15,7 +15,7 @@ public class ClockRotation : MonoBehaviour
 
         float SecondRotation = (time.Second + time.Millisecond/1000f) / 60f * 360;
         float MinuteRotation = time.Minute / 60f * 360 + SecondRotation/60;
-        float HourRotation = time.Hour/24f*360 + MinuteRotation/60;
+        float HourRotation = time.Hour/12f*360 + MinuteRotation/60;
 
         clocSecond.transform.rotation = Quaternion.Euler(SecondRotation, 0f, 0f);
         clockMinute.transform.rotation = Quaternion.Euler(MinuteRotation, 0f, 0f);
