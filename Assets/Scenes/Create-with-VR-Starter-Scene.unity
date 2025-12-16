@@ -831,6 +831,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04b79e8ccd1ac574e89182d359c0ee81, type: 3}
+--- !u!1 &242174174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6701424225106442104, guid: ed9d61a9f6613044996e81235826dd03, type: 3}
+  m_PrefabInstance: {fileID: 302923389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &244744224 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8541797305995807110, guid: a742bb07c68d7b644ab99195b3b5eeb7, type: 3}
@@ -984,9 +989,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 724301717325129663, guid: ed9d61a9f6613044996e81235826dd03, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 808122980}
     - targetCorrespondingSourceObject: {fileID: 724301717325129663, guid: ed9d61a9f6613044996e81235826dd03, type: 3}
       insertIndex: -1
       addedObject: {fileID: 808122982}
@@ -2064,18 +2066,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 724301717325129663, guid: ed9d61a9f6613044996e81235826dd03, type: 3}
   m_PrefabInstance: {fileID: 302923389}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &808122980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 808122978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56901d2aadb65a34f8f59cea52335851, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClockRotation
 --- !u!4 &808122981 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 92020600183127301, guid: ed9d61a9f6613044996e81235826dd03, type: 3}
@@ -2090,9 +2080,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 808122978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c433dde2916fe74eb0357184fb61870, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e0d2b5bf2262af44afcddd18e9d22cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClockRotation
+  clockHour: {fileID: 1323362967}
+  clockMinute: {fileID: 242174174}
+  clocSecond: {fileID: 1355129662}
 --- !u!4 &831403785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 195143706903473593, guid: 04b79e8ccd1ac574e89182d359c0ee81, type: 3}
@@ -2557,6 +2550,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1240177872}
   m_SourcePrefab: {fileID: 100100000, guid: 093d994e44bd73043850362e6d954a7e, type: 3}
+--- !u!1 &1323362967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6077937062508853302, guid: ed9d61a9f6613044996e81235826dd03, type: 3}
+  m_PrefabInstance: {fileID: 302923389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1327556549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2618,6 +2616,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5604108310997910333, guid: 1acee1ebf7d3fa747afaa7a2ae044238, type: 3}
   m_PrefabInstance: {fileID: 1327556549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1355129662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 539713695929881115, guid: ed9d61a9f6613044996e81235826dd03, type: 3}
+  m_PrefabInstance: {fileID: 302923389}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1364812901
 GameObject:
